@@ -1,0 +1,53 @@
+/* For WebKit-based browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    /* width: 10px; Width of the scroll bar */
+    width: 8px; /* Width of the scroll bar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100; /* Color of the track (background behind the scroll bar) */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #e3e3e3; /* Color of the scroll bar thumb */
+    border-radius: 1.2rem;
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox requires an additional CSS property (scrollbar-width) to work */
+  /* Note: Firefox versions prior to Firefox 64 require the '-moz-' prefix */
+  /* Note: Firefox versions prior to Firefox 78 require an additional CSS property (-moz-appearance) */
+  
+  /* Example for Firefox 64+ */
+  /* Use '-moz-' prefix for older versions of Firefox */
+  /* Use '-moz-appearance' for older versions of Firefox prior to Firefox 78 */
+  /* Use 'scrollbar-color' for Firefox 78+ */
+  /* Replace colors and width as desired */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
+  
+  /* For Microsoft Edge and Internet Explorer */
+  /* Note: This works for Microsoft Edge (based on Chromium) and Internet Explorer 10+ */
+  /* Replace colors as desired */
+  /* Note: For Microsoft Edge versions prior to Edge 79, use '-ms-' prefix */
+  /* Note: For Internet Explorer versions prior to IE 11, use '-ms-' prefix */
+  /* Note: Internet Explorer supports limited customization */
+  
+  /* Example */
+  /* Use '-ms-' prefix for older versions of Microsoft Edge and Internet Explorer */
+  /* Replace colors as desired */
+  /* Remove 'background-color' if you want to hide the scroll bar completely */
+  body {
+    scrollbar-face-color: #888; /* Color of the scroll bar face */
+    scrollbar-track-color: #f1f1f1; /* Color of the scroll bar track */
+    scrollbar-arrow-color: #888; /* Color of the scroll bar arrow buttons (if present) */
+    scrollbar-shadow-color: #888; /* Color of the scroll bar shadow (if present) */
+    scrollbar-highlight-color: #888; /* Color of the scroll bar highlight (if present) */
+    scrollbar-3dlight-color: #f1f1f1; /* Color of the scroll bar 3D light (if present) */
+    scrollbar-darkshadow-color: #f1f1f1; /* Color of the scroll bar dark shadow (if present) */
+    background-color: #f1f1f1; /* Background color behind the scroll bar */
+    scroll-thumb-border-radius: 1rem; 
+  }
+  

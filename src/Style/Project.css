@@ -1,0 +1,128 @@
+.aboutheadingbefore {
+  opacity: 0 !important;
+  transition: opacity 1s ease-in-out !important;
+}
+.projectheading {
+  color: #5ce8d2;
+  font-size: 4.2rem;
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+  top: 2.563rem;
+}
+.delay{
+  animation-delay: 0.1s;
+}
+.projectthumbnail {
+  width: 34.375rem;
+    height: 18.75rem;
+  border-radius: 1rem;
+}
+.projectgithublink{
+  color: #5ce8d2;
+  font-size: 1.1rem;
+  margin:1rem;
+}
+.myprojects {
+  display: flex;
+  flex-direction: column;
+}
+.projectspart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  align-items: stretch;
+  margin: 1rem;
+}
+
+.projecttitle {
+  color: #e0e7fd;
+  font-size: 1.4rem;
+  margin: 0.5rem;
+}
+.projectsubcontent {
+  grid-area: 1 / 2 / 2 / 3;
+  color: #8493a8;
+  width: 600px;
+}
+.projectsummary {
+  margin: 0;
+  background-color: #121c32;
+  height: fit-content;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  padding-right: 0.5rem;
+}
+.projectthumbnailcontainer {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.projectsummary {
+  font-size: 1.2rem;
+}
+@media (max-width: 480px) {
+  .projectheading {
+    color: #5ce8d2;
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    top: 2.563rem;
+  }
+  .delay{
+    animation-delay: 0.1s;
+  }
+  .projectthumbnail {
+    width: 20.625rem;
+    height: 12.75rem;
+    border-radius: 1rem;
+  }
+  .projectgithublink{
+    color: #5ce8d2;
+    font-size: 1.1rem;
+    margin:1rem;
+  }
+  .myprojects {
+    display: flex;
+    flex-direction: column;
+  }
+  .projectspart {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .projecttitle {
+    color: #e0e7fd;
+    font-size: 1.4rem;
+    margin: 0.5rem;
+  }
+  .projectsubcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: max-content;
+  }
+  .projectsummary {
+    margin: 0;
+    background-color: #121c32;
+    height: fit-content;
+    width: 17.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    padding-right: 0.5rem;
+  }
+  .projectthumbnailcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectsummary {
+    font-size: 1.2rem;
+  }
+}

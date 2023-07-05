@@ -1,0 +1,124 @@
+.aboutheadingbefore {
+  opacity: 0 !important;
+  transition: opacity 1s ease-in-out !important;
+}
+.skillpartcontainer {
+  background-color: #121c32;
+  position: relative;
+  top: -40px;
+  margin-top: 0;
+  padding-bottom: 0rem;
+}
+.skillspartheading {
+  color: #5ce8d2;
+  font-size: 4.2rem;
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+  top: 2.563rem;
+}
+.skillicon {
+  color: #5ce8d2;
+  font-size: 1.5rem;
+  background-color: #5ce8d347;
+  width: 40px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myskillheader {
+  margin: 5px;
+  font-size: 1.5rem;
+}
+.myallskills {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.myskillsheading {
+  color: #e0e7fd;
+  margin: 5px;
+}
+.myskills {
+  display: block;
+  width: max-content;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #e0e7fd;
+  margin: 5px;
+  padding: 0;
+}
+.skilllists {
+  background-color: #0b152e;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: max-content;
+  padding: 20px;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+@media (max-width: 480px) {
+  .skillpartcontainer {
+    background-color: #121c32;
+    position: relative;
+    top: -40px;
+    margin-top: 0;
+    padding-bottom: 0rem;
+  }
+  .skillspartheading {
+    color: #5ce8d2;
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    top: 2.563rem;
+  }
+  .skillicon {
+    color: #5ce8d2;
+    font-size: 1.5rem;
+    background-color: #5ce8d347;
+    width: 40px;
+    height: 37px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .myskillheader {
+    margin: 5px;
+    font-size: 1.5rem;
+  }
+  .myallskills {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .myskillsheading {
+    color: #e0e7fd;
+    margin: 5px;
+  }
+  .myskills {
+    display: block;
+    width: max-content;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #e0e7fd;
+    margin: 5px;
+    padding: 0;
+  }
+  .skilllists {
+    background-color: #0b152e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 11.875rem;
+    padding: 20px;
+    margin: 2rem;
+    border-radius: 1rem;
+  }
+}
