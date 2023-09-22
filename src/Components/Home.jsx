@@ -57,7 +57,7 @@ const Home = () => {
             </p>
             <div className="profilebtns">
               <a
-                href="https://drive.google.com/file/d/1vxJRaKYx_7E2ClP_QxKZfDYYTuCJxsxH/view?usp=drive_link"
+                href="https://drive.google.com/file/d/12QwwboU1Kzna6mgW_R3dvoAiq7XxHL5S/view?usp=sharing"
                 target="_blank"
                 className="resumebtn animate__animated animate__fadeInUp"
               >
